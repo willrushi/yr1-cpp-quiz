@@ -30,6 +30,12 @@ int main(){
 # Section 2
 ```cpp
 int main(){
+    char input[100];
+    
+    fgets(input, 200, stdin);
+
+    cout << input << endl;
+
     return 0;
 }
 ```
@@ -40,11 +46,14 @@ int main(){
 # Section 3
 ```cpp
 int main(){
-    char input[100];
-    
+    char input[200];
+    char backup[100];
+
+    cout << "Enter your input:" << endl;
     fgets(input, 200, stdin);
 
-    cout << input << endl;
+    cout << "Saving input to backup." << endl;
+    strcpy(backup, input);
 
     return 0;
 }
