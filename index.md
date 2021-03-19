@@ -11,9 +11,57 @@ Don't worry if you're not sure on the answers - after each question is answered,
 Without further adeiu, let's jump in to the first section!
 
 
-# Question 1
+# Section 1
 ```cpp
 int main(){
+    char* input;
+
+    cout << "Please enter an address to ping." << endl;
+    cin >> input;
+    system("ping -c 4 " + input);
+
+    return 0;
+}
+```
+
+
+
+
+# Section 2
+```cpp
+int main(){
+    return 0;
+}
+```
+
+
+
+
+# Section 3
+```cpp
+int main(){
+    char input[100];
+    
+    fgets(input, 200, stdin);
+
+    cout << input << endl;
+
+    return 0;
+}
+```
+
+
+
+# Section 4
+```cpp
+int main(){
+    char* input;
+
+    cin >> input;
+
+    printf("Your input was:");
+    printf(input);
+    
     return 0;
 }
 ```
