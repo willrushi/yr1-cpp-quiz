@@ -10,7 +10,14 @@ Don't worry if you're not sure on the answers - after each question is answered,
 
 Without further adeiu, let's jump in to the first section!
 
-<h1>asdasdasd</h1>
+
+# Question 1
+```cpp
+int main(){
+    return 0;
+}
+```
+
 
 
 ### Markdown
