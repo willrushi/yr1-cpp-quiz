@@ -18,6 +18,8 @@ int main(){
 
     cout << "Please enter an address to ping." << endl;
     cin >> input;
+
+    cout << "Pinging address " << input << "..." << endl;
     system("ping -c 4 " + input);
 
     return 0;
@@ -32,8 +34,10 @@ int main(){
 int main(){
     char input[100];
     
+    cout << "Enter your input:" << endl;
     fgets(input, 200, stdin);
 
+    cout << "Your input was:" << endl;
     cout << input << endl;
 
     return 0;
@@ -51,6 +55,9 @@ int main(){
 
     cout << "Enter your input:" << endl;
     fgets(input, 200, stdin);
+
+    cout << "Your input was:" << endl;
+    cout << input << endl;
 
     cout << "Saving input to backup." << endl;
     strcpy(backup, input);
