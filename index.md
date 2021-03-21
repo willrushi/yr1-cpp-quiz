@@ -25,8 +25,18 @@ int main(){
     return 0;
 }
 ```
+### Question 1
+**What is the vulnerability here?**
+1. Buffer Overflow
+2. Command Injection
+3. Null Pointer Dereference
+4. Format String Vulnerability
 
-
+### What is the vulnerability here?
+1. Buffer Overflow
+2. Command Injection
+3. Null Pointer Dereference
+4. Format String Vulnerability
 
 
 # Section 2
@@ -65,6 +75,7 @@ int main(){
     return 0;
 }
 ```
+
 
 
 
