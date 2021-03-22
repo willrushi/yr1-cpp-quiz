@@ -28,8 +28,20 @@ int main(){
 ### Q1 - What is the vulnerability here?
 1. Buffer Overflow
 2. Command Injection
-3. Null Pointer Dereference
+3. Distributed Denial of Service
 4. Format String Vulnerability
+
+### Q2 - What is the cause of this vulnerability?
+1. Insecure function usage
+2. Lack of bounds checking
+3. Unsanitized user input
+4. Outdated software
+
+### Q3 - How would you abuse this vulnerability?
+1. Enter in a long string
+2. Cause an infinite loop
+3. Enter a negative number
+4. Use special characters like `;` and `&&`
 
 
 # Section 2
@@ -46,7 +58,23 @@ int main(){
     return 0;
 }
 ```
+### Q1 - What is the vulnerability here?
+1. Buffer Overflow
+2. Command Injection
+3. Distributed Denial of Service
+4. Format String Vulnerability
 
+### Q2 - What is the cause of this vulnerability?
+1. Insecure function usage
+2. Lack of bounds checking
+3. Unsanitized user input
+4. Outdated software
+
+### Q3 - How would you abuse this vulnerability?
+1. Enter in a long string
+2. Cause an infinite loop
+3. Enter a negative number
+4. Use special characters like `;` and `&&`
 
 
 
@@ -68,7 +96,23 @@ int main(){
     return 0;
 }
 ```
+### Q1 - What is the vulnerability here?
+1. Buffer Overflow
+2. Command Injection
+3. Distributed Denial of Service
+4. Format String Vulnerability
 
+### Q2 - What is the cause of this vulnerability?
+1. Insecure function usage
+2. Lack of bounds checking
+3. Unsanitized user input
+4. Outdated software
+
+### Q3 - What mechanism causes this vulnerability to occur?
+1. Using up all program memory
+2. Overwriting of important program data
+3. Abuse of elevated privileges
+4. Dereferencing of a null pointer
 
 
 
@@ -85,3 +129,20 @@ int main(){
     return 0;
 }
 ```
+### Q1 - What is the vulnerability here?
+1. Buffer Overflow
+2. Command Injection
+3. Distributed Denial of Service
+4. Format String Vulnerability
+
+### Q2 - What is the cause of this vulnerability?
+1. Insecure function usage
+2. Lack of bounds checking
+3. Unsanitized user input
+4. Outdated software
+
+### Q3 - What can do you do with this vulnerability?
+1. Read literal data from memory
+2. Read strings from memory
+3. Write to memory addresses
+4. All of the above
