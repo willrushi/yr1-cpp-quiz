@@ -13,14 +13,23 @@ Without further adeiu, let's jump in to the first section!
 
 # Section 1
 ```cpp
+#include <iostream>
+#include <stdlib.h>
+#include <cstring>
+using namespace std;
+
 int main(){
-    char* input;
+    char input[100];
+    char command[100];
 
     cout << "Please enter an address to ping." << endl;
-    cin >> input;
-
+    fgets(input, 100, stdin);
     cout << "Pinging address " << input << "..." << endl;
-    system("ping -c 4 " + input);
+
+    strcpy(command, "ping -c 4 ");
+    strcat(command, input);
+
+    system(command);
 
     return 0;
 }
@@ -46,6 +55,10 @@ int main(){
 
 # Section 2
 ```cpp
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
 int main(){
     char input[100];
     
@@ -80,6 +93,10 @@ int main(){
 
 # Section 3
 ```cpp
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
 int main(){
     char input[200];
     char backup[100];
@@ -118,10 +135,14 @@ int main(){
 
 # Section 4
 ```cpp
-int main(){
-    char* input;
+#include <iostream>
+#include <cstdio>
+using namespace std;
 
-    cin >> input;
+int main(){
+    char input[100];
+
+    fgets(input, 100, stdin);
 
     printf("Your input was:");
     printf(input);
