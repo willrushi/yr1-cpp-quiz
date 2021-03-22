@@ -136,7 +136,7 @@ int main(){
 4. Format String Vulnerability
 
 ### Q2 - What is the cause of this vulnerability?
-1. Insecure function usage
+1. Function used insecurely
 2. Lack of bounds checking
 3. Unsanitized user input
 4. Outdated software
